@@ -19,6 +19,10 @@
         <section>
             <div>
                 <a class="btn-link" href="./index.php">Previous page</a>
+                <?php
+                    $url = 'http://kulakovphp2.std-2176.ist.mospolytech.ru/index.php';
+                    print_r(get_headers($url));
+                ?>
             </div>
         </section>
     </main>
